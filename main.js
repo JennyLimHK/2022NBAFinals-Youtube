@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cssAnchor.group.add(obj);
 
     cssAnchor.onTargetFound = () => {
-      player.setVolume(100);
+      player.setVolume(80);
       player.playVideo();
     }
     cssAnchor.onTargetLost = () => {
